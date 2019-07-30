@@ -1,0 +1,56 @@
+:root {
+  --fuentePrincipal: 'Staatliches', cursive;
+
+  --primario: #9C27B0;
+  --primarioOscuro: #89119D;
+  --secundario: #FFCE00;
+
+}
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+
+}
+body{
+  background-color: var(--primario);
+  line-height: 2;
+  font-size: 2rem;
+}
+
+.barra{
+  background-color: var(--primarioOscuro);
+  padding: 1rem, 0;
+
+
+}
+.header{
+  display: grid;
+  justify-content: center;
+}
+
+
+
+.barra .nav{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-column-gap: 1rem;
+  justify-content: center;
+
+
+}
+.barra .nav a{
+  font-family: var(--fuentePrincipal);
+  font-size: 3rem;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+
+}
+.barra .nav a:hover{
+  color: var(--secundario);
+
+}
