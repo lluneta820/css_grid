@@ -30,6 +30,7 @@ body{
 .header{
   display: grid;
   justify-content: center;
+  padding: 3rem 0;
 }
 
 
