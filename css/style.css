@@ -20,6 +20,25 @@ body{
   line-height: 2;
   font-size: 2rem;
 }
+h1{
+  color:var(--secundario);
+  text-align: center;
+  font-size: 3rem;
+  font-family: var(--fuentePrincipal);
+
+
+
+}
+.contenedor{
+  max-width: 1000px;
+  width: 95%;
+  margin: 0 auto;
+
+}
+img{
+  max-width: 100%;
+
+}
 
 .barra{
   background-color: var(--primarioOscuro);
@@ -52,6 +71,41 @@ body{
 
 }
 .barra .nav a:hover{
+  color: var(--secundario);
+
+}
+.lista-productos{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 2rem;
+}
+
+@media (min-width:768px) {
+  .lista-productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+.producto{
+  background-color: var(--primarioOscuro);
+  padding: 1rem;
+}
+.conteido-producto p{
+  font-family: var (--fuentePrincipal);
+  color: white;
+  text-align: center;
+  margin: 1rem 0;
+  line-height: 1.2;
+
+}
+.contenido-producto .titulo{
+  font-size: rem;
+
+
+
+}
+.contenido-producto .precio{
+  font-size: 2.8rem;
   color: var(--secundario);
 
 }
