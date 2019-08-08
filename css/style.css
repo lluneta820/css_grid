@@ -29,6 +29,12 @@ h1{
 
 
 }
+p{
+  font-size:  1.8rem;
+  color: white;
+  font-family: Arial,serif;
+
+}
 .contenedor{
   max-width: 1000px;
   width: 95%;
@@ -131,5 +137,30 @@ img{
     grid-row: 5/6;
     grid-column: 2/4;
 }
+
+}
+
+
+@media(min-width:768px){
+  .contenedor-informacion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap:2rem;
+  }
+
+}
+.footer{
+  background-color: var(--primarioOscuro);
+  padding: 1rem 0;
+  margin-top: 2rem;
+
+
+}
+.copyright{
+  font-family: var(--fuentePrincipal);
+  color: white;
+  font-size: 2.2rem;
+  text-align: center;
+
 
 }
