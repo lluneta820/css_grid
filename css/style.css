@@ -20,6 +20,13 @@ body{
   line-height: 2;
   font-size: 2rem;
 }
+body.footer-fijo{
+  display: flex;
+  flex-direction: column;
+
+
+}
+
 h1{
   color:var(--secundario);
   text-align: center;
